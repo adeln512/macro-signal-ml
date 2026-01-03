@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+
+# Environments
+.env
+.venv
+venv/
+macroml/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# (Optional) If you do NOT want raw data on GitHub:
+# data/raw/
+
+# (Optional) If you do NOT want processed data either:
+# data/processed/
