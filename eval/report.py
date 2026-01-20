@@ -4,10 +4,10 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional, Dict, Any
 
-import numpy as np
-import pandas as pd
+import numpy as np # type: ignore
+import pandas as pd # type: ignore
 
-from sklearn.metrics import (
+from sklearn.metrics import ( # type: ignore
     accuracy_score,
     precision_recall_fscore_support,
     classification_report,
@@ -18,7 +18,7 @@ from sklearn.metrics import (
     precision_recall_curve,
 )
 
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt # type: ignore
 
 
 @dataclass
